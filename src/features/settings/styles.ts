@@ -52,7 +52,7 @@ export const styles = StyleSheet.create({
     borderWidth: 1,
     flexDirection: 'row',
     gap: spacing.md,
-    minHeight: 72,
+    minHeight: 60,
     padding: spacing.md,
   },
   settingIconWrap: {
@@ -65,7 +65,6 @@ export const styles = StyleSheet.create({
   },
   settingRowText: {
     flex: 1,
-    gap: 3,
   },
   settingRowHeader: {
     alignItems: 'center',

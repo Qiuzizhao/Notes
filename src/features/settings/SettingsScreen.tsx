@@ -24,7 +24,6 @@ export function SettingsScreen() {
             </View>
             <View style={styles.settingRowText}>
               <Text style={styles.helperTitle}>简笔类别</Text>
-              <Text style={styles.helperText}>管理标签名称和颜色</Text>
             </View>
             <Ionicons name="chevron-forward" size={19} color={colors.muted} />
           </Pressable>
@@ -34,7 +33,6 @@ export function SettingsScreen() {
             </View>
             <View style={styles.settingRowText}>
               <Text style={styles.helperTitle}>账号</Text>
-              <Text style={styles.helperText}>登录账号并手动同步简笔</Text>
             </View>
             <Ionicons name="chevron-forward" size={19} color={colors.muted} />
           </Pressable>
