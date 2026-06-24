@@ -1,0 +1,1 @@
+-- Local development seed file for Notes. Keep empty unless this app needs fixture data.
