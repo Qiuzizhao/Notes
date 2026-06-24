@@ -15,6 +15,7 @@ import {
 } from '@/src/sync/supabaseClient';
 
 type Mode = 'signIn' | 'signUp';
+const headerVisualOffset = 22;
 
 export function AuthScreen() {
   const [mode, setMode] = useState<Mode>('signIn');
@@ -148,6 +149,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     maxWidth: 430,
     padding: spacing.lg,
+    transform: [{ translateY: -headerVisualOffset }],
     width: '100%',
   },
   card: {
